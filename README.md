@@ -10,7 +10,7 @@ pip install fastapi uvicorn sqlalchemy pydantic pydantic[dotenv] pydantic[email]
 
 uvicorn app.main:app --host localhost --port 8000 --reload 
 
-5) Open browser and open urlhttp://localhost:8000/docs
+5) Open browser and open url http://localhost:8000/docs
 
 6) Create new user under route/endpoint POST api/users. 
 -> Click 'Try it out' button, fill in username and password and click Execute button.
